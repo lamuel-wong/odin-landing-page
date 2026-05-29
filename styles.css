@@ -1,0 +1,47 @@
+* {
+    font: Roboto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background: #1F2937;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+/* .header div {
+    background: #1F2937;
+    flex: 1;
+    height: 100px;
+} */
+
+ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+}
+
+a {
+    /* this removes the line under the links */
+    text-decoration: none;
+}
+
+.header-links ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.hero {
+    background-color: white;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
